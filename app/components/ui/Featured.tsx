@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Featured = () => {
   return (
     <div className="text-gray-400 container max-w-screen-xl mx-auto">
-      <h1 className="text-xl md:text-2xl lg:text-3xl  font-semibold  mt-16">
+      <h1 className="text-xl sm:text-2xl lg:text-3xl  font-bold  mt-16">
         Featured
       </h1>
       <div className="mt-10 overflow-hidden">
@@ -17,7 +17,7 @@ export const Featured = () => {
             src={"/images/photo_2024-05-26_05-33-52.jpg"}
             height={400}
             width={400}
-            className="md:max-w-sm lg:max-w-xs w-full h-fit float-left hover:scale-105 transition-all"
+            className="md:max-w-sm lg:max-w-xs w-full h-fit float-left sm:hover:scale-105 transition-all"
           />
         </Link>
 

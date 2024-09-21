@@ -4,7 +4,7 @@ import Link from "next/link";
 const NewlyRelease = () => {
   return (
     <div className="clear-left mt-8 container max-w-screen-xl mx-auto">
-      <h2 className="text-xl md:2xl lg:text-3xl  pb-5 font-semibold text-gray-400">
+      <h2 className="text-xl sm:text-3xl pb-5 font-bold text-gray-400">
         New Release
       </h2>
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4  gap-5 text-gray-400 transition-all">
@@ -18,7 +18,7 @@ const NewlyRelease = () => {
               alt="photo"
               width={300}
               height={300}
-              className="h-fit w-full hover:scale-105 transition-all hover:drop-shadow-lg"
+              className="h-fit w-full sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
             <p className="py-5 ">iphone 17</p>
           </Link>
@@ -33,7 +33,7 @@ const NewlyRelease = () => {
               alt="photo"
               width={300}
               height={300}
-              className="h-fit w-full  hover:scale-105 transition-all hover:drop-shadow-lg"
+              className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
             <p className="py-5">iPhone 16 pro max</p>
           </Link>
@@ -48,7 +48,7 @@ const NewlyRelease = () => {
               alt="photo"
               width={300}
               height={300}
-              className="h-fit w-full  hover:scale-105 transition-all hover:drop-shadow-lg"
+              className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
             <p className="py-5">Motorola edge 50</p>
           </Link>
@@ -63,7 +63,7 @@ const NewlyRelease = () => {
               alt="photo"
               width={300}
               height={300}
-              className="h-fit w-full  hover:scale-105 transition-all hover:drop-shadow-lg"
+              className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
             <p className="py-5">Samsung S24 Ultra</p>
           </Link>

@@ -76,7 +76,7 @@ export default function Page({ params }: { params: { title: string } }) {
         </div>
         <div className="max-w-screen-md mx-auto">
           {compare && (
-            <p className="md:text-xl md:leading-relaxed whitespace-pre-wrap text-gray-400   leading-relaxed pt-8">
+            <p className="sm:text-xl sm:leading-loose leading-relaxed whitespace-pre-wrap text-gray-400 pt-8">
               {content[0].content}
             </p>
           )}

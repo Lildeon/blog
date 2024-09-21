@@ -8,8 +8,8 @@ const more = allPost.slice(12);
 const More = () => {
   return (
     <Layout>
-      <div className="text-gray-400 pt-10 container max-w-screen-xl mx-auto">
-        <h1 className="mb-10 text-3xl font-bold">More Update</h1>
+      <div className="text-gray-400 container max-w-screen-xl mx-auto">
+        <h1 className="mb-10 text-2xl sm:text-3xl font-bold">More Update</h1>
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-3 gap-8 overflow-hidden transition-all">
           {more.length > 0 &&
             more.map((p) => (
@@ -20,7 +20,7 @@ const More = () => {
                   width={400}
                   height={400}
                   key={p.id}
-                  className=" h-fit w-full md:h-80 hover:scale-105 transition-all hover:drop-shadow-lg"
+                  className=" h-fit w-full md:h-80 sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
                 />
                 <p className=" lg:text-xl text-lg pt-5 text-purple-600 font-medium">
                   Tech
