@@ -22,7 +22,7 @@ export const Featured = () => {
         </Link>
 
         <div>
-          <p className="leading-relaxed text-lg bg-white lg:font-medium lg:text-xl lg:leading-relaxed p-5 transition-all hidden md:block">
+          <p className="leading-relaxed text-lg bg-white lg:font-medium lg:text-xl lg:leading-relaxed p-5 transition-all  ">
             - Upgraded 48MP ultra-wide camera - Larger 1/1.14 primary sensor -
             New 8-element hybrid lens - 4k Spatial video - A18 Pro chip (N3E
             node) possibly with 2 extra efficiency cores - Significantly

@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export const Category = () => {
   return (
-    <div className="container max-w-screen-xl mx-auto rounded-lg font-medium pt-5  transition-all">
-      <h1 className="text-2xl font-bold sm:text-3xl  mb-10  sm:pt-5 w-fit text-gray-400 ">
+    <div className="container max-w-screen-xl mx-auto rounded-lg font-medium transition-all">
+      <h1 className="text-xl font-bold sm:text-3xl mb-10 w-fit text-gray-400 ">
         Category
       </h1>
       <div className=" flex flex-wrap gap-5 justify-between text-center p-2 text-white sm:text-lg shadow-md hover:bg-opacity-80 rounded-lg pt-10">

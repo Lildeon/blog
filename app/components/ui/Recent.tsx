@@ -10,7 +10,7 @@ export const Recent = () => {
       <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-10">
         Recent Post
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3  gap-10">
         {recent.length > 0 &&
           recent.map((p) => (
             <Link href={p.path} key={p.id}>
@@ -20,7 +20,7 @@ export const Recent = () => {
                 width={400}
                 height={400}
                 key={p.id}
-                className="h-fit w-full md:h-80 lg:h-72 transition-all  sm:hover:scale-105 sm:hover:drop-shadow-xl"
+                className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all  sm:hover:scale-105 sm:hover:drop-shadow-xl"
               />
 
               <p className="lg:text-xl text-lg pt-5 text-purple-600 font-medium">

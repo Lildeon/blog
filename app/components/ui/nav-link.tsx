@@ -10,7 +10,7 @@ const links = [
 
 export function NavHead() {
   return (
-    <header className=" flex justify-between items-center  text-white  bg-gray-500 md:px-5 px-2 pt-5 sm:pt-10 sm:pb-2 container max-w-screen-xl mx-auto fixed top-0 left-0 right-0">
+    <header className=" flex justify-between items-center  text-white  bg-black md:px-5 px-2 pt-5 sm:pt-10 sm:pb-2 container max-w-screen-xl mx-auto fixed top-0 left-0 right-0">
       <Link
         href={"/blog"}
         className="text-lg md:text-2xl lg:text-3xl font-bold transition delay-100 duration-200 hover:-translate-x-1 hover:scale-110"

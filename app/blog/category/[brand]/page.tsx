@@ -12,8 +12,8 @@ export default function Page({ params }: { params: { brand: string } }) {
 
   return (
     <Layout>
-      <div className="p-5 container max-w-screen-xl mx-auto">
-        <div className="flex justify-between text-3xl font-semibold pb-10 text-gray-400">
+      <div className="container max-w-screen-xl mx-auto">
+        <div className="flex justify-between text-xl sm:text-3xl font-bold pb-10 text-gray-400">
           <h1>{category}</h1>
           <p>{brand.length}</p>
         </div>

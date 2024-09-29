@@ -20,7 +20,7 @@ const NewlyRelease = () => {
               height={300}
               className="h-fit w-full sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
-            <p className="py-5 ">iphone 17</p>
+            <p className="py-5 font-bold">iphone 17</p>
           </Link>
         </div>
         <div className="text-xl ">
@@ -35,7 +35,7 @@ const NewlyRelease = () => {
               height={300}
               className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
-            <p className="py-5">iPhone 16 pro max</p>
+            <p className="py-5 font-bold">iPhone 16 pro max</p>
           </Link>
         </div>
         <div className="text-xl">
@@ -50,7 +50,7 @@ const NewlyRelease = () => {
               height={300}
               className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
-            <p className="py-5">Motorola edge 50</p>
+            <p className="py-5 font-bold">Motorola edge 50</p>
           </Link>
         </div>
         <div className="text-xl">
@@ -65,7 +65,7 @@ const NewlyRelease = () => {
               height={300}
               className="h-fit w-full  sm:hover:scale-105 transition-all sm:hover:drop-shadow-lg"
             />
-            <p className="py-5">Samsung S24 Ultra</p>
+            <p className="py-5 font-bold">Samsung S24 Ultra</p>
           </Link>
         </div>
       </div>

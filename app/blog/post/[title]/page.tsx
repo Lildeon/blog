@@ -21,12 +21,12 @@ export default function Page({ params }: { params: { title: string } }) {
 
   return (
     <Layout>
-      <div className="p-5 container max-w-screen-xl mx-auto">
+      <div className="container max-w-screen-xl mx-auto">
         {filter.map((c) => (
           <div key={c.title} className="p-5">
             <h1
               key={c.id}
-              className="text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-400 text-center mb-5"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-400 text-center mb-5"
             >
               {c.description}
             </h1>

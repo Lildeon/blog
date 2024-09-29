@@ -3,7 +3,7 @@ import Layout from "@/app/components/ui/layout";
 function Page() {
   return (
     <Layout>
-      <div className="text-neutral-400 text-lg p-5 container max-w-screen-xl mx-auto">
+      <div className="text-neutral-400 text-lg container max-w-screen-xl mx-auto">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
           About Mobile
         </h1>

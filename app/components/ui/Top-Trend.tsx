@@ -19,7 +19,7 @@ function Top() {
         Top pick
       </h1>
 
-      <div className="grid grid-cols-1  lg:grid-cols-2 gap-2  text-lg text-gray-400 font-semibold transition-all ">
+      <div className="grid grid-cols-2 md:grid-cols-1  lg:grid-cols-2 gap-2  text-lg text-gray-400 font-semibold transition-all ">
         <Link
           href={"/blog/post/oneplus-ace"}
           className="md:hidden lg:inline-block"
@@ -29,7 +29,7 @@ function Top() {
             src="/images/photo_2024-05-26_05-02-10.jpg"
             width={300}
             height={300}
-            className="h-fit w-full md:h-80 lg:h-72 transition-all sm:hover:scale-105"
+            className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5  whitespace-pre-line hover:underline ">
             OnePlus Ace 3V Nord 4 launching in Ghana.
@@ -41,7 +41,7 @@ function Top() {
             src="/images/photo_2024-05-26_05-53-51.jpg"
             width={300}
             height={300}
-            className="h-fit w-full md:h-80 lg:h-72 transition-all sm:hover:scale-105"
+            className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className=" py-5 whitespace-pre-line hover:underline">
             Sony Xperia 1 VI launched
@@ -53,7 +53,7 @@ function Top() {
             src="/images/photo_2024-05-26_05-39-11.jpg"
             width={300}
             height={300}
-            className="h-fit w-full md:h-80 lg:h-72 transition-all sm:hover:scale-105"
+            className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5   whitespace-pre-line hover:underline">
             Motorola edge 50 Pro is launching on 3rd April 2024!
@@ -68,7 +68,7 @@ function Top() {
             src="/images/photo_2024-05-26_05-37-27.jpg"
             width={300}
             height={300}
-            className="h-fit w-full md:h-80 lg:h-72 transition-all sm:hover:scale-105"
+            className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5   whitespace-pre-line hover:underline">
             Infinix Note 40 Pro+ to launch on April 12 in India!
