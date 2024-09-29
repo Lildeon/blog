@@ -20,19 +20,19 @@ export const Recent = () => {
                 width={400}
                 height={400}
                 key={p.id}
-                className="h-52 w-full sm:h-72 md:h-80 lg:h-72 transition-all  sm:hover:scale-105 sm:hover:drop-shadow-xl"
+                className="h-40 w-full sm:h-72 md:h-80 lg:h-72 transition-all  sm:hover:scale-105 sm:hover:drop-shadow-xl"
               />
 
               <p className="lg:text-xl text-lg pt-5 text-purple-600 font-medium">
                 Tech
               </p>
               <p
-                className="whitespace-pre-line mt-5 font-semibold lg:text-2xl text-xl hover:bg-gradient-to-r from-green-200 to-green-100"
+                className="whitespace-pre-line mt-5 font-semibold lg:text-2xl text-lg text-black sm:text-xl sm:hover:bg-gradient-to-r from-green-200 to-green-100"
                 key={p.title}
               >
                 {p.description}
               </p>
-              <div className="flex justify-between text-lg text-neutral-400">
+              <div className="hidden sm:flex justify-between text-lg text-neutral-400">
                 <p>Gideon Sowah</p>
                 <p>8//8/2024</p>
               </div>

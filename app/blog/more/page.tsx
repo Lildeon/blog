@@ -8,12 +8,12 @@ const more = allPost.slice(12);
 const More = () => {
   return (
     <Layout>
-      <div className="text-gray-400 container max-w-screen-xl mx-auto">
+      <div className="text-black container max-w-screen-xl mx-auto">
         <h1 className="mb-10 text-xl sm:text-3xl font-bold">More Update</h1>
         <div className="grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 2xl:grid-cols-3 gap-8 overflow-hidden transition-all">
           {more.length > 0 &&
             more.map((p) => (
-              <Link href={p.path} className="" key={p.id}>
+              <Link href={p.path} key={p.id}>
                 <Image
                   alt="photo"
                   src={p.src}
@@ -26,12 +26,12 @@ const More = () => {
                   Tech
                 </p>
                 <p
-                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-xl"
+                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-lg text-black sm:text-xl"
                   key={p.title}
                 >
                   {p.description}
                 </p>
-                <div className="flex justify-between text-lg text-neutral-400">
+                <div className="hidden sm:flex justify-between text-lg text-neutral-400">
                   <p>Gideon Sowah</p>
                   <p>8/8/2024</p>
                 </div>
