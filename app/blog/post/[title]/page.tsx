@@ -45,21 +45,11 @@ export default function Page({ params }: { params: { title: string } }) {
         <div className="container max-w-screen-sm mx-auto">
           {compare && (
             <ul className="flex flex-wrap justify-between">
-              <li>
-                <Link
-                  href="/blog/contact"
-                  className=" bg-slate-400  px-2  py-1 rounded-lg hover:underline font-semibold"
-                >
-                  {content[0].author}
-                </Link>
+              <li className=" bg-slate-200 text-gray-400  px-2  py-1 rounded-lg hover:underline font-semibold">
+                <Link href="/blog/contact">{content[0].author}</Link>
               </li>
-              <li>
-                <Link
-                  href={`/blog/category/${brand}`}
-                  className=" bg-blue-500 text-gray-100 px-2  py-1 rounded-lg hover:underline"
-                >
-                  {content[0].tag}
-                </Link>
+              <li className=" bg-blue-500 text-gray-100 px-2  py-1 rounded-lg hover:underline">
+                <Link href={`/blog/category/${brand}`}>{content[0].tag}</Link>
               </li>
               <li>
                 <p className=" bg-yellow-950 text-gray-100 px-2  py-1 rounded-lg">

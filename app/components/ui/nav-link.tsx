@@ -56,7 +56,7 @@ export function NavFoot() {
           <p className="hidden md:inline"> facebook</p>
         </li>
         <li className="hover:underline">
-          <Link href={"https://www.x.com/Lildeon_9"}>
+          <Link href={"https://www.x.com/Lildeon_9"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -79,7 +79,7 @@ export function NavFoot() {
       </ul>
       <ul>
         <li className="pb-10 hover:underline">
-          <Link href={""}>
+          <Link href={"https://www.instagram.com/_lildeon9/"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -127,7 +127,10 @@ export function NavFoot() {
       </ul>
       <ul>
         <li className="pb-10 hover:underline">
-          <Link href={"www.linkedin.com/in/gideon-sowah-68632a142"}>
+          <Link
+            href={"www.linkedin.com/in/gideon-sowah-68632a142"}
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"
@@ -159,7 +162,7 @@ export function NavFoot() {
           </Link>
         </li>
         <li className="hover:underline">
-          <Link href={"https://github.com/Lildeon"}>
+          <Link href={"https://github.com/Lildeon"} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               version="1.1"

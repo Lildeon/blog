@@ -45,7 +45,6 @@ export default function Page({ params }: { params: { brand: string } }) {
             ))}
         </div>
       </div>
-      ;
     </Layout>
   );
 }
