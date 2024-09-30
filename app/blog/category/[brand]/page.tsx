@@ -26,20 +26,20 @@ export default function Page({ params }: { params: { brand: string } }) {
                   alt="photo"
                   width={400}
                   height={400}
-                  className="h-fit md:h-72 w-full hover:shadow-lg transition-all hover:scale-105"
+                  className="h-fit md:h-72 w-full sm:hover:shadow-lg transition-all sm:hover:scale-105"
                 />
                 <p className="lg:text-xl text-lg pt-5 font-medium text-purple-600">
                   Tech
                 </p>
                 <p
-                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-xl text-gray-400"
+                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-xl text-black line-clamp-1"
                   key={B.title}
                 >
                   {B.description}
                 </p>
                 <div className="flex justify-between text-lg text-neutral-400">
                   <p>Gideon Sowah</p>
-                  <p>8//8/2024</p>
+                  <p>8/8/2024</p>
                 </div>
               </Link>
             ))}

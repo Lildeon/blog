@@ -32,7 +32,9 @@ function Top() {
             className="h-40 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5  whitespace-pre-line hover:underline ">
-            OnePlus Ace 3V Nord 4 launching in Ghana.
+            <span className="line-clamp-1 sm:line-clamp-none">
+              OnePlus Ace 3V Nord 4 launching in Ghana.
+            </span>
           </p>
         </Link>
         <Link href={"/blog/post/sony-xperia-1"}>
@@ -44,7 +46,9 @@ function Top() {
             className="h-40 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className=" py-5 whitespace-pre-line hover:underline">
-            Sony Xperia 1 VI launched
+            <span className="line-clamp-1 sm:line-clamp-none">
+              Sony Xperia 1 VI launched
+            </span>
           </p>
         </Link>
         <Link href={"/blog/post/motorola-edge"}>
@@ -56,7 +60,9 @@ function Top() {
             className="h-40 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5   whitespace-pre-line hover:underline">
-            Motorola edge 50 Pro is launching on 3rd April 2024!
+            <span className="line-clamp-1 sm:line-clamp-none">
+              Motorola edge 50 Pro is launching on 3rd April 2024!
+            </span>
           </p>
         </Link>
         <Link
@@ -71,7 +77,9 @@ function Top() {
             className="h-40 w-full sm:h-72 md:h-80 lg:h-72 transition-all sm:hover:scale-105"
           />
           <p className="py-5   whitespace-pre-line hover:underline">
-            Infinix Note 40 Pro+ to launch on April 12 in India!
+            <span className="line-clamp-1 sm:line-clamp-none">
+              Infinix Note 40 Pro+ to launch on April 12 in India!
+            </span>
           </p>
         </Link>
       </div>
@@ -90,8 +98,10 @@ function Trend() {
           Samsung
         </h3>
         <p className=" pt-2 pb-5 whitespace-pre-line hover:underline ">
-          Samsung Galaxy S24 Ultra launched! 6.8-inch Dynamic AMOLED 2x QHD+
-          flat display.
+          <span className="line-clamp-2 sm:line-clamp-none">
+            Samsung Galaxy S24 Ultra launched! 6.8-inch Dynamic AMOLED 2x QHD+
+            flat display.
+          </span>
         </p>
       </Link>
       <Link href={"/blog/post/oneplus-ace"}>
@@ -99,7 +109,9 @@ function Trend() {
           OnePlus
         </h3>
         <p className=" pt-2 pb-5 whitespace-pre-line hover:underline">
-          OnePlus Ace 3V (Nord 4 globally) launching in China on March 21!
+          <span className="line-clamp-2 sm:line-clamp-none">
+            OnePlus Ace 3V (Nord 4 globally) launching in China on March 21!
+          </span>
         </p>
       </Link>
       <Link href={"/blog/post/iphone-17"}>
@@ -107,8 +119,11 @@ function Trend() {
           Apple
         </h3>
         <p className=" pt-2 pb-5 whitespace-pre-line hover:underline">
-          iPhone 17 Slim details 6.6” display - 2740 X 1260 resolution - Dynamic
-          Island - ultra-slim design - titanium-aluminum frame
+          <span className="line-clamp-2 sm:line-clamp-none">
+            {" "}
+            iPhone 17 Slim details 6.6” display - 2740 X 1260 resolution -
+            Dynamic Island - ultra-slim design - titanium-aluminum frame
+          </span>
         </p>
       </Link>
       <Link href={"/blog/post/pixel-9"}>
@@ -127,7 +142,9 @@ function Trend() {
           Motorola
         </h3>
         <p className=" pt-2 pb-5 whitespace-pre-line hover:underline">
-          Motorola edge 50 Pro is launching on 3rd April 2024!
+          <span className="line-clamp-2 sm:line-clamp-none">
+            Motorola edge 50 Pro is launching on 3rd April 2024!
+          </span>
         </p>
       </Link>
       <Link href={"/blog/post/Samsung-S23-FE"}>
@@ -135,8 +152,10 @@ function Trend() {
           Samsung
         </h3>
         <p className=" pt-2 pb-5 whitespace-pre-line hover:underline">
-          Samsung Galaxy S23 FE launched globally! • Snapdragon 8 Gen 1/Exynos
-          2200
+          <span className="line-clamp-2 sm:line-clamp-none">
+            Samsung Galaxy S23 FE launched globally! • Snapdragon 8 Gen 1/Exynos
+            2200
+          </span>
         </p>
       </Link>
       <Link href={"/blog/post/sony-xperia-1"}>

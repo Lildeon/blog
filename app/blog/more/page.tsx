@@ -26,7 +26,7 @@ const More = () => {
                   Tech
                 </p>
                 <p
-                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-lg text-black sm:text-xl"
+                  className="whitespace-pre-line pt-5 font-semibold lg:text-2xl text-lg text-black sm:text-xl line-clamp-1"
                   key={p.title}
                 >
                   {p.description}
