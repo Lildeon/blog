@@ -44,7 +44,7 @@ export default function Page({ params }: { params: { title: string } }) {
 
         <div className="container max-w-screen-sm mx-auto">
           {compare && (
-            <ul className="flex flex-wrap justify-between">
+            <ul className="flex flex-wrap justify-between gap-5">
               <li className=" bg-slate-200 text-gray-400  px-2  py-1 rounded-lg hover:underline font-semibold">
                 <Link href="/blog/contact">{content[0].author}</Link>
               </li>
