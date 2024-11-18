@@ -10,8 +10,9 @@ const links = [
 
 export function NavHead() {
   return (
-    <header className=" flex justify-between items-center  text-white  bg-black md:px-5 px-2 pt-5 sm:pt-10 sm:pb-2 container max-w-screen-xl mx-auto fixed top-0 left-0 right-0">
-      <Link
+    <header className="bg-black">
+    <div className="flex justify-between items-center  text-white md:px-5 px-2 pt-5 sm:pt-10 sm:pb-2 container max-w-screen-xl mx-auto">
+    <Link
         href={"/blog"}
         className="text-lg md:text-2xl lg:text-3xl font-bold transition delay-100 duration-200 hover:-translate-x-1 hover:scale-110"
       >
@@ -28,13 +29,15 @@ export function NavHead() {
           </Link>
         ))}
       </nav>
+    </div>
     </header>
   );
 }
 
 export function NavFoot() {
   return (
-    <div className="flex justify-between  p-5  bg-black  text-white container max-w-screen-xl mx-auto">
+    <footer className="bg-black">
+      <div className="flex justify-between p-5 text-white container max-w-screen-xl mx-auto">
       <ul>
         <li className="pb-10 hover:underline">
           <Image
@@ -118,5 +121,6 @@ export function NavFoot() {
         </li>
       </ul>
     </div>
+    </footer>
   );
 }

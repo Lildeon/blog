@@ -6,7 +6,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div>
         <NavHead />
       </div>
-      <div className="mt-10 p-5 sm:mt-28">{children}</div>
+      <div className="mt-5 p-5 sm:mt-10">{children}</div>
       <div>
         <NavFoot />
       </div>
